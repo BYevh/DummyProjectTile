@@ -54,25 +54,37 @@ This project is built on the Salesforce Lightning Web Components (LWC) framework
    - NamedCredential
    - ExternalCredential
 
-### Setup Instructions
 
-1. **Clone the Repository**:
-   ```bash
-   git clone <repository-url>
-   cd <repository-directory>
-   ```
+### Setup instructions for System Administrator User
+	
+Use this URL to install the package into any organization:
+https://login.salesforce.com/packaging/installPackage.apexp?p0=04tQy0000003VaL
 
-2. **Deploy Apex Classes and LWC to Salesforce**:
-   - Use SFDX (Salesforce DX) to push the Apex classes and LWC components to your Salesforce org.
-   ```bash
-   sfdx force:source:push
-   ```
+Note: If you are installing into a sandbox organization you must replace the initial portion of the URL with http://test.salesforce.com
 
-3. **Assign Permissions**:
-   - Ensure that necessary permissions are granted to users who will interact with the LWC and Apex components.
+**Steps after installation**:
 
-4. **Testing**:
-   - Run the Apex test classes to ensure that the project components function as expected.
-   ```bash
-   sfdx force:apex:test:run --resultformat human
-   ```
+1. **Enabled External Credential Principal Access**:
+  - Setup 
+         -> Profiles 
+         -> System Administrator profile 
+         -> Enabled External Credential Principal Access 
+         -> Edit 
+         -> Add to: Enabled External Credential Principals - D_Product_Ext_Credential - Admin User 
+         -> Save
+
+2. **Setup Named Credensials(Principals)**:
+   - Setup
+         -> Named Credentials
+         -> External Credentials
+         -> D_Product_Ext_Credential
+         -> Principals : Admin User
+         -> Edit
+         -> fill fields: Username : 'emilys' , Password : 'emilyspass' //open data, user's credentials from dummyjson.com/users
+         -> Save
+
+3. **Start App**:
+   - Home page
+         -> App Launcher
+         -> Dummy Products
+         -> Enjoy!
