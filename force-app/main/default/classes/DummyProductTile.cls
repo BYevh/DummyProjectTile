@@ -67,9 +67,7 @@ public with sharing class DummyProductTile {
                     totalPrices += product.Price__c;
                     productsByCategory.get(product.Category__c).add(product);
                     finalProductList.add(product);
-                } else {
-                    return finalProductList;
-                }
+                } 
             } else if (!productsByCategory.containsKey(product.Category__c) && (totalPrices + product.Price__c) < MAX_TOTAL_PRICE) {
                 totalPrices += product.Price__c;
                 productsByCategory.put(product.Category__c, new List<Product__c>{ product });
