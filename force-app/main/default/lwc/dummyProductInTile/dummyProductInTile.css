@@ -1,0 +1,14 @@
+.dproduct-tile {
+    border: 1px solid #78B0FD;
+    border-radius: .35rem;
+    display: block;
+    cursor: default;
+}
+
+.dproduct-tile:hover{
+    background-color: #78B0FD;
+}
+
+.dproduct-silhouette {
+    height: 80px;
+}

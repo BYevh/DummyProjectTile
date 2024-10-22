@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tags__c</fullName>
+    <label>Tags</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>beauty</fullName>
+                <default>false</default>
+                <label>beauty</label>
+            </value>
+            <value>
+                <fullName>mascara</fullName>
+                <default>false</default>
+                <label>mascara</label>
+            </value>
+            <value>
+                <fullName>eyeshadow</fullName>
+                <default>false</default>
+                <label>eyeshadow</label>
+            </value>
+            <value>
+                <fullName>face powder</fullName>
+                <default>false</default>
+                <label>face powder</label>
+            </value>
+            <value>
+                <fullName>nail polish</fullName>
+                <default>false</default>
+                <label>nail polish</label>
+            </value>
+            <value>
+                <fullName>fragrances</fullName>
+                <default>false</default>
+                <label>fragrances</label>
+            </value>
+            <value>
+                <fullName>perfumes</fullName>
+                <default>false</default>
+                <label>perfumes</label>
+            </value>
+            <value>
+                <fullName>furniture</fullName>
+                <default>false</default>
+                <label>furniture</label>
+            </value>
+            <value>
+                <fullName>beds</fullName>
+                <default>false</default>
+                <label>beds</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brand__c</fullName>
+    <label>Brand</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Amazon</fullName>
+                <default>false</default>
+                <label>Amazon</label>
+            </value>
+            <value>
+                <fullName>Annibale Colombo</fullName>
+                <default>false</default>
+                <label>Annibale Colombo</label>
+            </value>
+            <value>
+                <fullName>Apple</fullName>
+                <default>false</default>
+                <label>Apple</label>
+            </value>
+            <value>
+                <fullName>Asus</fullName>
+                <default>false</default>
+                <label>Asus</label>
+            </value>
+            <value>
+                <fullName>Attitude</fullName>
+                <default>false</default>
+                <label>Attitude</label>
+            </value>
+            <value>
+                <fullName>Bath Trends</fullName>
+                <default>false</default>
+                <label>Bath Trends</label>
+            </value>
+            <value>
+                <fullName>Beats</fullName>
+                <default>false</default>
+                <label>Beats</label>
+            </value>
+            <value>
+                <fullName>Calvin Klein</fullName>
+                <default>false</default>
+                <label>Calvin Klein</label>
+            </value>
+            <value>
+                <fullName>Casual Comfort</fullName>
+                <default>false</default>
+                <label>Casual Comfort</label>
+            </value>
+            <value>
+                <fullName>Chanel</fullName>
+                <default>false</default>
+                <label>Chanel</label>
+            </value>
+            <value>
+                <fullName>Chic Cosmetics</fullName>
+                <default>false</default>
+                <label>Chic Cosmetics</label>
+            </value>
+            <value>
+                <fullName>Chrysler</fullName>
+                <default>false</default>
+                <label>Chrysler</label>
+            </value>
+            <value>
+                <fullName>Classic Wear</fullName>
+                <default>false</default>
+                <label>Classic Wear</label>
+            </value>
+            <value>
+                <fullName>Comfort Trends</fullName>
+                <default>false</default>
+                <label>Comfort Trends</label>
+            </value>
+            <value>
+                <fullName>Dell</fullName>
+                <default>false</default>
+                <label>Dell</label>
+            </value>
+            <value>
+                <fullName>Dior</fullName>
+                <default>false</default>
+                <label>Dior</label>
+            </value>
+            <value>
+                <fullName>Dodge</fullName>
+                <default>false</default>
+                <label>Dodge</label>
+            </value>
+            <value>
+                <fullName>Dolce &amp; Gabbana</fullName>
+                <default>false</default>
+                <label>Dolce &amp; Gabbana</label>
+            </value>
+            <value>
+                <fullName>Elegance Collection</fullName>
+                <default>false</default>
+                <label>Elegance Collection</label>
+            </value>
+            <value>
+                <fullName>Essence</fullName>
+                <default>false</default>
+                <label>Essence</label>
+            </value>
+            <value>
+                <fullName>Fashion Co.</fullName>
+                <default>false</default>
+                <label>Fashion Co.</label>
+            </value>
+            <value>
+                <fullName>Fashion Diva</fullName>
+                <default>false</default>
+                <label>Fashion Diva</label>
+            </value>
+            <value>
+                <fullName>Fashion Express</fullName>
+                <default>false</default>
+                <label>Fashion Express</label>
+            </value>
+            <value>
+                <fullName>Fashion Fun</fullName>
+                <default>false</default>
+                <label>Fashion Fun</label>
+            </value>
+            <value>
+                <fullName>Fashion Gold</fullName>
+                <default>false</default>
+                <label>Fashion Gold</label>
+            </value>
+            <value>
+                <fullName>Fashionista</fullName>
+                <default>false</default>
+                <label>Fashionista</label>
+            </value>
+            <value>
+                <fullName>Fashion Shades</fullName>
+                <default>false</default>
+                <label>Fashion Shades</label>
+            </value>
+            <value>
+                <fullName>Fashion Timepieces</fullName>
+                <default>false</default>
+                <label>Fashion Timepieces</label>
+            </value>
+            <value>
+                <fullName>Fashion Trends</fullName>
+                <default>false</default>
+                <label>Fashion Trends</label>
+            </value>
+            <value>
+                <fullName>Furniture Co.</fullName>
+                <default>false</default>
+                <label>Furniture Co.</label>
+            </value>
+            <value>
+                <fullName>GadgetMaster</fullName>
+                <default>false</default>
+                <label>GadgetMaster</label>
+            </value>
+            <value>
+                <fullName>Generic Motors</fullName>
+                <default>false</default>
+                <label>Generic Motors</label>
+            </value>
+            <value>
+                <fullName>Gigabyte</fullName>
+                <default>false</default>
+                <label>Gigabyte</label>
+            </value>
+            <value>
+                <fullName>Glamour Beauty</fullName>
+                <default>false</default>
+                <label>Glamour Beauty</label>
+            </value>
+            <value>
+                <fullName>Gucci</fullName>
+                <default>false</default>
+                <label>Gucci</label>
+            </value>
+            <value>
+                <fullName>Heshe</fullName>
+                <default>false</default>
+                <label>Heshe</label>
+            </value>
+            <value>
+                <fullName>Huawei</fullName>
+                <default>false</default>
+                <label>Huawei</label>
+            </value>
+            <value>
+                <fullName>IWC</fullName>
+                <default>false</default>
+                <label>IWC</label>
+            </value>
+            <value>
+                <fullName>Kawasaki</fullName>
+                <default>false</default>
+                <label>Kawasaki</label>
+            </value>
+            <value>
+                <fullName>Knoll</fullName>
+                <default>false</default>
+                <label>Knoll</label>
+            </value>
+            <value>
+                <fullName>Lenovo</fullName>
+                <default>false</default>
+                <label>Lenovo</label>
+            </value>
+            <value>
+                <fullName>Longines</fullName>
+                <default>false</default>
+                <label>Longines</label>
+            </value>
+            <value>
+                <fullName>MotoGP</fullName>
+                <default>false</default>
+                <label>MotoGP</label>
+            </value>
+            <value>
+                <fullName>Nail Couture</fullName>
+                <default>false</default>
+                <label>Nail Couture</label>
+            </value>
+            <value>
+                <fullName>Nike</fullName>
+                <default>false</default>
+                <label>Nike</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>true</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Off White</fullName>
+                <default>false</default>
+                <label>Off White</label>
+            </value>
+            <value>
+                <fullName>Olay</fullName>
+                <default>false</default>
+                <label>Olay</label>
+            </value>
+            <value>
+                <fullName>Oppo</fullName>
+                <default>false</default>
+                <label>Oppo</label>
+            </value>
+            <value>
+                <fullName>Pampi</fullName>
+                <default>false</default>
+                <label>Pampi</label>
+            </value>
+            <value>
+                <fullName>Prada</fullName>
+                <default>false</default>
+                <label>Prada</label>
+            </value>
+            <value>
+                <fullName>ProVision</fullName>
+                <default>false</default>
+                <label>ProVision</label>
+            </value>
+            <value>
+                <fullName>Puma</fullName>
+                <default>false</default>
+                <label>Puma</label>
+            </value>
+            <value>
+                <fullName>Realme</fullName>
+                <default>false</default>
+                <label>Realme</label>
+            </value>
+            <value>
+                <fullName>Rolex</fullName>
+                <default>false</default>
+                <label>Rolex</label>
+            </value>
+            <value>
+                <fullName>Samsung</fullName>
+                <default>false</default>
+                <label>Samsung</label>
+            </value>
+            <value>
+                <fullName>ScootMaster</fullName>
+                <default>false</default>
+                <label>ScootMaster</label>
+            </value>
+            <value>
+                <fullName>SnapTech</fullName>
+                <default>false</default>
+                <label>SnapTech</label>
+            </value>
+            <value>
+                <fullName>SpeedMaster</fullName>
+                <default>false</default>
+                <label>SpeedMaster</label>
+            </value>
+            <value>
+                <fullName>TechGear</fullName>
+                <default>false</default>
+                <label>TechGear</label>
+            </value>
+            <value>
+                <fullName>Urban Chic</fullName>
+                <default>false</default>
+                <label>Urban Chic</label>
+            </value>
+            <value>
+                <fullName>Vaseline</fullName>
+                <default>false</default>
+                <label>Vaseline</label>
+            </value>
+            <value>
+                <fullName>Velvet Touch</fullName>
+                <default>false</default>
+                <label>Velvet Touch</label>
+            </value>
+            <value>
+                <fullName>Vivo</fullName>
+                <default>false</default>
+                <label>Vivo</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
