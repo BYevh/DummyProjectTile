@@ -64,6 +64,7 @@ Note: If you are installing into a sandbox organization you must replace the ini
 
 **Steps after installation**:
 
+
 1. **Enabled External Credential Principal Access**:
   - Setup 
     -  -> Profiles 
@@ -72,6 +73,7 @@ Note: If you are installing into a sandbox organization you must replace the ini
     -  -> Edit 
     -  -> Add to: Enabled External Credential Principals - D_Product_Ext_Credential - Admin User 
     -  -> Save
+
 
 2. **Setup Named Credensials(Principals)**:
   - Setup
@@ -82,6 +84,7 @@ Note: If you are installing into a sandbox organization you must replace the ini
     -  -> Edit
     -  -> fill fields: Username : 'emilys' , Password : 'emilyspass' //open data, user's credentials from dummyjson.com/users
     -  -> Save
+
 
 3. **Start App**:
   - Home page
